@@ -1,104 +1,18 @@
-<html> 
+//login page
+![image](https://user-images.githubusercontent.com/113420049/202985743-d132a3f2-db5f-47e5-a2e2-bd742bb3ad52.png)
 
-<head> 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-compatible" Content="IE=edge">
-    <meta name="viewport" Content="width=device-width">
+//admin page<br>
+(admin account)<br>
+name: admin<br>
+password: 12345<br>
+![image](https://user-images.githubusercontent.com/113420049/202985801-01ffc9fd-2742-45cc-b963-7486de5a60b5.png)
 
-    <title>Website Homework</title>
-    <link rel="stylesheet" href="css/stylehomepage.css" >
-    <script src="java.js"></script>
-</head>
-
-
-<body class="page1">
-    <div class="container1" > 
-
-        <!--f ffksjifshfiusdh-->
-
-<!----------------------------------------------------------------------------------------------->
-        <!-- Left container -->
-        <div class="sub1-container1">
-            <div class="content-container1" >
-                <div class="logo-container1">
-                <img src="logo/book.png" width="90px"> &nbsp; My Homework
-                </div>                
-                <p class="font-information-container1" >Creat a Website like an 
-                <br> instructor's Website !!
-                <br> Welcome to <font style="color:  white;" ><q>George's Website</q></p></font>
-                <img src="logo/rocket.png" width="380px" style="margin-left: 50px;margin-top: 35px; position:relative">   
-            </div>
-        </div>
-<!------------------------------------------------------------------------------------------------->
+//user page <br>
+(user account) <br>
+name: user<br>
+password: 12345<br>
+![image](https://user-images.githubusercontent.com/113420049/202986047-48fffa5f-9cf4-44d8-8504-8727024b35c6.png)
 
 
-
-
-<!-------------------------------------------------------------------------------------------------->
-        <!-- Right container -->
-        <div class="sub2-container1">
-            <!-- Top menu container-->
-            <div class="top-sub2-container1">
-            <a href="#">Forget your account?</a>
-            <a href="#"><input type="submit" value="Register now" ></a>
-
-
-
-
-
-            </div>
-
-<!----------------------------------------------------------------------------------------->
-
-
-
-
-<!-- -----------------------------------------------------------------------------------  -->
-                            <!-- Log in container-->
-            
-           
-            <div class="login-sub2-container1" >
-                <p class="font-login"> Website Homework</p>
-                <label for="username"></label>
-            
-                    
-                    <input type="text" name="username" id="username" placeholder="Enter your Username / Email" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
-                </label>
-                   
-                <label for="Password"></label>
-              
-        
-                   
-                    <input type="password" name="Password" id="password" placeholder="Enter your Password" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
-                </label>
-
-                <div class="Rememberme">
-                <input type="checkbox" name="Remember" id="Remember" value="" >&nbsp;Remember me?
-                </div>
-                <div class="loginsubmitbutton">
-                <a href="#"><input type="submit" id="loginsubmit" Value="Log In" onclick="login()">
-                </div></a>
-                <p style="padding-left:15%">Not a member? <a href="#" style="color: blue; text-decoration:none;">Sign Up</a>
-            </div>
-<!-------------------------------------------------------------------------------------------------------->            
-
-
-
-
-
-
-        </div>
-    </div>
-
-
-
-
-
-</body>
-
-
-
-
-
-
-</html>
+//username or password is incorrect
+![image](https://user-images.githubusercontent.com/113420049/202985421-4b32cc2e-131a-427f-a1bb-2d6d6b5a0b35.png)
